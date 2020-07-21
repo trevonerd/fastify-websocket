@@ -25,6 +25,6 @@ module.exports = fp((fastify, opts, next) => {
 
   next()
 }, {
-  fastify: '1.7.0 - 2',
+  fastify: '^3.0.0',
   name: 'fastify-ws'
 })
